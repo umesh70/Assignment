@@ -1,9 +1,6 @@
-# import sys
-# import os
-# sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
-from Database.userDb import db
-from flask import request,jsonify,Blueprint,session
+from Database.userDB import db
+from flask import request,jsonify,Blueprint
 
 userApp = Blueprint('user',__name__)
 

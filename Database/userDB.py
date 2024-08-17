@@ -1,7 +1,5 @@
 from pymongo import MongoClient
-from bson import objectid
 import bcrypt 
-import uuid
 from pymongo.errors import DuplicateKeyError
 from bson.objectid import ObjectId
 
