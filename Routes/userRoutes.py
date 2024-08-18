@@ -41,7 +41,7 @@ def getUser(userID):
         
         user['_id'] = str(user['_id'])
         user['password'] = str(user['password'])
-        print(user)
+        # print(user)
         return jsonify(user)
     return jsonify({'Error':'No user found with this ID'}),404
 
