@@ -29,7 +29,7 @@ api = Api(app)
 
 # Add resources
 api.add_resource(UserListResource, '/users')
-api.add_resource(UserResource, '/users/<int:user_id>')
+api.add_resource(UserResource, '/users/<string:user_id>')
 
 if __name__ == '__main__':
     app.run(debug=True)
